@@ -1,28 +1,32 @@
 @import "./variables.css";
 
 .l-header {
-  background-color: red;
+  background-color: #FFFF;
   height: 100px;
+  border-bottom: 1px solid black;
 }
 
 .l-menu {
-  background-color: blue;
-  height: 900px;
+  background-color: #FFFF;
+  height: 2750px;
+  border-right: 1px solid black;
 }
 
 .l-dopMenu {
   padding: 0;
   margin-right: 0;
-  background-color: darkgreen;
+  background-color: #FFFF;
   height: 60px;
+  border-bottom: 1px solid black;
 }
 
 .l-content {
   margin-right: 0;
-  background-color: aqua;
+  background-color: #FFFF;
 }
 
 .l-footer {
   height: 100px;
-  background-color: darkorchid;
+  background-color: #FFFF;
+  border-top: 1px solid black;
 }

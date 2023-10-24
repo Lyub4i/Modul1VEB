@@ -4,28 +4,30 @@
   width: 70px;
 }
 
-.l-header_block{
-    height: 100px;
+.l-header_block {
+  height: 100px;
 }
 
-.l-content_leftBlock{
-    background-color: chartreuse;
+.l-content_leftBlock {
+  background-color: #ffff;
+  align-items: center;
+  border-right: 1px solid black;
 }
 
-.l-content_leftBlock_footer{
-
+.l-content_rightBlock {
+  padding: 0;
+  background-color: #ffff;
+  align-items: center;
 }
 
-.l-content_rightBlock{
-    padding: 0;
-    background-color: coral;
+.l-content_photoBlock {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-top: 10px;
 }
 
-.l-content_photoBlock{
-    background-color: grey;
-    text-align: center;
-}
-
-.l-content_photo{
-    width: 400px;
+.l-content_photo {
+  width: 300px;
+  border-radius: 15px;
 }
