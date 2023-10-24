@@ -1,32 +1,40 @@
 @import "./variables.css";
 
 .l-header {
-  background-color: #FFFF;
+  background-color: var(--background-color);
   height: 100px;
   border-bottom: 1px solid black;
 }
 
 .l-menu {
-  background-color: #FFFF;
-  height: 2750px;
+  background-color: var(--background-color);
   border-right: 1px solid black;
 }
 
 .l-dopMenu {
   padding: 0;
   margin-right: 0;
-  background-color: #FFFF;
-  height: 60px;
+  background-color: var(--background-color);
+  height: 120px;
   border-bottom: 1px solid black;
 }
 
 .l-content {
   margin-right: 0;
-  background-color: #FFFF;
+  background-color: var(--background-color);
+  border-top: 1px solid black;
+}
+
+.l-content-footer {
+  margin-top: 10px;
+  width: 300px;
+  border: 1px solid black;
+  text-align: center;
 }
 
 .l-footer {
   height: 100px;
-  background-color: #FFFF;
+  background-color: var(--background-color);
   border-top: 1px solid black;
+  text-align: center;
 }

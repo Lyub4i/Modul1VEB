@@ -8,15 +8,28 @@
   height: 100px;
 }
 
+.l-menu_mainText {
+  font-size: 28px;
+}
+
+.l-menu_p {
+  font-size: 23px;
+}
+
+.l-content_main-Text{
+    font-size: 36px;
+    text-align: center;
+}
+
 .l-content_leftBlock {
-  background-color: #ffff;
+  background-color: var(--background-color);
   align-items: center;
   border-right: 1px solid black;
 }
 
 .l-content_rightBlock {
   padding: 0;
-  background-color: #ffff;
+  background-color: var(--background-color);
   align-items: center;
 }
 
@@ -30,4 +43,8 @@
 .l-content_photo {
   width: 300px;
   border-radius: 15px;
+}
+
+.l-footer_p {
+  margin-top: 25px;
 }
