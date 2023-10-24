@@ -1,0 +1,31 @@
+@import "./variables.css";
+
+.l-header_p {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.l-header_image {
+  width: 70px;
+}
+
+.l-content_leftBlock{
+    background-color: chartreuse;
+}
+
+.l-content_leftBlock_footer{
+
+}
+
+.l-content_rightBlock{
+    padding: 0;
+    background-color: coral;
+}
+
+.l-content_photoBlock{
+    background-color: grey;
+}
+
+.l-content_photo{
+    width: 400px;
+}
