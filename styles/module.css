@@ -1,12 +1,11 @@
 @import "./variables.css";
 
-.l-header_p {
-    font-size: 36px;
-    margin-top: 20px;
-}
-
 .l-header_image {
   width: 70px;
+}
+
+.l-header_block{
+    height: 100px;
 }
 
 .l-content_leftBlock{
@@ -24,6 +23,7 @@
 
 .l-content_photoBlock{
     background-color: grey;
+    text-align: center;
 }
 
 .l-content_photo{

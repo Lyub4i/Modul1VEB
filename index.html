@@ -22,59 +22,64 @@
   </head>
   <body>
     <div class="l-header">
-      <div class="container-fluid d-flex justify-content-between">
-        <form class="form-inline">
-          <div class="form-group ml-2 mt-3">
+      <div class="container-fluid row">
+        <form class="form-inline col-6">
+          <div class="form-group">
             <input type="text" class="form-control" placeholder="Search" />
             <button type="button" class="btn btn-primary ml-1">Go</button>
           </div>
         </form>
-        <img
-          src="./img/mainImage.png"
-          alt="main image"
-          style="width: 50px"
-          class="mr-2 mt-3"
-        />
+        <div class="col-6 d-flex justify-content-end l-header_block">
+          <img
+            src="./img/mainImage.png"
+            alt="main image"
+            style="width: 50px"
+            class="my-auto"
+          />
+        </div>
       </div>
     </div>
-    <div class="l-menu d-none d-lg-block position-fixed">
-      <div>
-        <p>Menu</p>
-      </div>
-    </div>
-    <div class="l-dopMenu row">
-      <div class="col-sm">
+
+    <div class="row l-dopMenu">
+      <div class="col-sm my-auto">
         <img src="./img/socialMedias/icon-facebook-white.svg" alt="facebook" />
       </div>
-      <div class="col-sm">
+      <div class="col-sm my-auto">
         <img
           src="./img/socialMedias/icon-instagram-white.svg"
           alt="instagram"
         />
       </div>
-      <div class="col-sm">
+      <div class="col-sm my-auto">
         <img src="./img/socialMedias/icon-linkedin-white.svg" alt="linkedin" />
       </div>
-      <div class="col-sm">
+      <div class="col-sm my-auto">
         <img src="./img/socialMedias/icon-twitter-white.svg" alt="twitter" />
       </div>
-      <div class="col-sm">
+      <div class="col-sm my-auto">
         <img src="./img/socialMedias/icon-youtube-white.svg" alt="youtube" />
       </div>
     </div>
-    <div class="l-content row">
-      <div class="col-sm l-content_leftBlock d-flex justify-content-center">
+
+    <div class="l-content row mb-1">
+      <div class="d-none d-lg-block col-xl-2 l-menu">
+        <div>
+          <p>Menu</p>
+        </div>
+      </div>
+      <div class="col-xl-5 l-content_leftBlock d-flex justify-content-center">
         <div class="l-content_photoBlock">
           <img src="./img/photos/1.jpg" alt="" class="l-content_photo" />
           <p>Прекрасна дівчинка з букетиком</p>
         </div>
       </div>
-      <div class="l-content_rightBlock col-sm d-flex justify-content-center">
+      <div class="col-xl-5 l-content_rightBlock d-flex justify-content-center">
         <div class="l-content_photoBlock">
           <img src="./img/photos/2.jpg" alt="" class="l-content_photo" />
         </div>
       </div>
     </div>
+
     <div class="l-footer"></div>
   </body>
 </html>
