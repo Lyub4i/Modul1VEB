@@ -11,6 +11,14 @@
   width: 200px;
 }
 
+.l-dopMenu {
+  padding: 0;
+  margin-right: 0;
+  background-color: darkgreen;
+  height: 60px;
+  margin-left: 200px;
+}
+
 .l-content {
   margin-left: 200px;
   margin-right: 0;
@@ -19,6 +27,6 @@
 }
 
 .l-footer {
-    height: 100px;
-    background-color: darkorchid;
+  height: 100px;
+  background-color: darkorchid;
 }
